@@ -1,1 +1,1 @@
-add_executable(meta_hello src/meta_hello.cpp)
+add_executable(meta_has_reserve tasks/01-has-reserve/has_reserve.cpp)
