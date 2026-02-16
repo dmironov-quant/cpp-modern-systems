@@ -1,4 +1,5 @@
 #include "fib.h"
+#include <iostream>
 
 int main() {
     // static_assert(Fib<-1>::value == 1);  // error
@@ -16,4 +17,6 @@ int main() {
     static_assert(Fib<10>::value == 55);
     static_assert(Fib<11>::value == 89);
     static_assert(Fib<12>::value == 144);
+
+    std::cout << "fib: ALL TESTS PASSED! \n";
 }

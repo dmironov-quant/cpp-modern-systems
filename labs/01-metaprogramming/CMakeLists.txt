@@ -1,2 +1,5 @@
 add_executable(meta_has_reserve tasks/01-has-reserve/has_reserve.cpp)
 add_executable(meta_concepts_addable tasks/02-concepts-addable/addable.cpp)
+add_executable(meta_factorial tasks/03-factorial/factorial.cpp)
+add_executable(meta_fibonacci tasks/04-fibonacci/fib.cpp)
+add_executable(meta_if_else tasks/05-if-else/if_else.cpp)
