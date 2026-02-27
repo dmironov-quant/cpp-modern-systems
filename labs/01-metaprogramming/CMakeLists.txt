@@ -1,3 +1,7 @@
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 add_executable(meta_has_reserve tasks/01-has-reserve/has_reserve.cpp)
 add_executable(meta_concepts_addable tasks/02-concepts-addable/addable.cpp)
 add_executable(meta_factorial tasks/03-factorial/factorial.cpp)
@@ -6,3 +10,4 @@ add_executable(meta_if_else tasks/05-if-else/if_else.cpp)
 add_executable(meta_is_integral tasks/06-is-integral/is_integral.cpp)
 add_executable(meta_enable_if tasks/07-enable-if/enable_if.cpp)
 add_executable(meta_reverse tasks/08-reverse/reverse.cpp)
+add_executable(meta_reverse_sfinae tasks/08-reverse-sfinae/reverse_sfinae.cpp)
